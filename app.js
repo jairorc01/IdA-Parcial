@@ -28,7 +28,7 @@ app.get('/contacto', (req, res) => {
 })
 
 app.get('/login', (req, res) => {
-    res.sendFile(__dirname + '/public/error.html')
+    res.sendFile(__dirname + '/public/login.html')
 })
 
 app.get('/register', (req, res) => {
